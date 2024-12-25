@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AX_MONITOR: AI powered API monitoring tool
+title: AX_MONITOR - AI powered API monitoring tool
 ---
 
 ### Technologies used
