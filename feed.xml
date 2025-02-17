@@ -20,7 +20,7 @@
         <updated>2025-02-17T23:00:44+05:30</updated>
             <summary>
                 <![CDATA[
-                    Recently I challenged myself to build an app from scratch that could help my track my trade ideas - in just three hours. Here is the main idea I had with this app - 1. The app should be responsive, so I used material-ui -&hellip;
+                    Recently I challenged myself to build an app from scratch that could help my track my trade ideas - in just three hours. Here is&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -44,7 +44,7 @@
 <p>3. Some custom utility like adding new instruments on the fly</p>
 <h2 id="mcetoc_1ikafs7r5p">Setting up the backend with supabase</h2>
 <p>Setting up the database with supabase is as simple as creating a table using the built-in UI editor.</p>
-<figure class="post__image"><img loading="lazy"  src="https://kshitij86.github.io/media/posts/1/Screenshot-2025-02-17-at-10.59.31-PM.png" alt="supabase table editor" width="2558" height="1434" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-xs.png 640w ,https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-sm.png 768w ,https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-md.png 1024w ,https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-lg.png 1366w ,https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-xl.png 1600w ,https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-2xl.png 1920w"><figcaption>supabase table editor</figcaption></figure>
+<figure class="post__image"><img loading="lazy"  src="https://kshitij86.github.io/media/posts/1/Screenshot-2025-02-17-at-10.59.31-PM.png" alt="supabase table editor" width="2558" height="1434" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-xs.png 300w ,https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-sm.png 480w ,https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-md.png 768w ,https://kshitij86.github.io/media/posts/1/responsive/Screenshot-2025-02-17-at-10.59.31-PM-lg.png 1024w"><figcaption>supabase table editor</figcaption></figure>
 <p>Skipping the obvious setting up of the tables - the most striking feature of supabase database is the RLS or Row Level Security that can be used to control individual rows using policies. After a few Google searches, it became clear that I needed to setup policies to allow access to my React app to read/write to a table. </p>
 <h2 id="mcetoc_1ikag4ah814">Creating the React.js application</h2>
 <p>For the application, I used a bottom navigation based layout, that used different components, as shown below - </p>
