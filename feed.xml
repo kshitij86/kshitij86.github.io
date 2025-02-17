@@ -3,7 +3,7 @@
     <title>kshitij86&#x27;s blog</title>
     <link href="https://kshitij86.github.io/feed.xml" rel="self" />
     <link href="https://kshitij86.github.io" />
-    <updated>2025-02-17T23:21:55+05:30</updated>
+    <updated>2025-02-17T23:25:10+05:30</updated>
     <author>
         <name>kshitij86</name>
     </author>
@@ -31,6 +31,7 @@
 <ul>
 <li><a href="#mcetoc_1ikafs7r5p">Setting up the backend with supabase</a></li>
 <li><a href="#mcetoc_1ikag4ah814">Creating the React.js application</a></li>
+<li><a href="#mcetoc_1ikagn63b1i">To finish it up</a></li>
 </ul>
 </div>
 <p>Here is the main idea I had with this app - </p>
@@ -54,7 +55,8 @@
 <p>It allows the user to select the instrument, a strategy name and describe the strategy in detail. The settings view has some basic options to add new instruments, delete test trades (useful when testing the app) and other features I plan to add to make this app really useful - like filtering trades based on the instrument name etc.</p>
 <p>Connecting the app to supabase was really simple - just add your connection string and the key. Then create a supabase client and basic CRUD works really well. It is possibly the simplest integration with a database+backend.</p>
 <p>Material UI components handled the rest - responsive components that can be used on the mobile easily without any additional setup.</p>
-<h2>To finish it up</h2>
+<h2 id="mcetoc_1ikagn63b1i">To finish it up</h2>
+<p>To deploy it I just had to push it to Github and that's it - netlify builds it automatically as new commits are pushed to the app. And I get my very own app hosted in a couple of hours.</p>
 <p>Building this app from scratch was to really just test my skills in frontend. Three hours may sound like a lot for an app so simple - but being out of touch with React.js for too long, it was probably more challenging for me than a seasoned UI developer. Still I had fun building it. I also plan to flesh out the features and add new ones - make it really useful for anyone who wants to quickly note down their trade ideas.</p>
 <p>Watch this space for more projects - I plan to explore complex topics in quant trading, AI, security and more soon.</p>
             ]]>
